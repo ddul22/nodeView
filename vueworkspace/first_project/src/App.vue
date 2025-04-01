@@ -4,7 +4,9 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/dataBinding">DataBind</router-link> |
     <router-link :to="{name : 'listBind'}">listsBind</router-link> |
-    <router-link :to="{name : 'ifBind'}">ifBind</router-link>
+    <router-link :to="{name : 'ifBind'}">ifBind</router-link> |
+    <router-link :to="{name : 'onEvent'}">onEvent</router-link> |
+    <router-link :to="{name : 'comWat'}">ComWat</router-link>
   </nav>
   <router-view/>
     <!-- <hr>
